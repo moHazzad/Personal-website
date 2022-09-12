@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: xx-large;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 3%;
+    padding: 3%;
+   
+}
+.half-width img{
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  bottom: 20px;
+  
+  
+  
+}
+.link-button{
+    background-image: linear-gradient(90deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+    
+}
+section{
+    overflow: hidden;
+    height: 700px;
+}
+.first-sec{
+    background-image: url(image/header-bg.png);
+    background-position: center;
+    background-size: cover;
+   
+    
+    background-repeat: no-repeat;
+    
+}
+
+.sec-sec{
+    background-image: url(image/biography-bg.png);
+   
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+.button{
+    background-image: linear-gradient(90deg, lightsalmon tomato);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+}
+.head{
+    text-align: center;
+}
+.third-sec{
+    background-image: url(image/latest-work-bg.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+.titl{
+    color: antiquewhite;
+}
+#eml{
+    text-align: center;
+
+}
+.bg{
+    background-image: linear-gradient(90deg, lightsalmon,tomato);
+    padding:10px 20px 10px 20px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+    
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-item{
+	flex-grow: 1;
+    padding: 10px;
+	margin: 30px;
+	
+	cursor: pointer;
+
+}
+#eml{
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.middl{
+    bottom: 10px;
+}
