@@ -12,11 +12,19 @@ h1{
     padding: 3%;
    
 }
+.half-widthh{
+    width: 25%;
+    float: left;
+    margin: 3%;
+    padding: 3%;
+   
+}
 .half-width img{
   width: 100%;
   margin: 10px;
   padding: 10px;
-  bottom: 20px;
+  height: 100%;
+  
   
   
   
@@ -32,7 +40,7 @@ h1{
 }
 section{
     overflow: hidden;
-    height: 700px;
+    height: 600px;
 }
 .first-sec{
     background-image: url(image/header-bg.png);
@@ -102,7 +110,4 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-.middl{
-    bottom: 10px;
 }
